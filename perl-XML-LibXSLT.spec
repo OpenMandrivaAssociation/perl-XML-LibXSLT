@@ -1,6 +1,6 @@
 %define module  XML-LibXSLT
 %define name    perl-%{module}
-%define version 1.62
+%define version 1.63
 %define release %mkrel 1
 
 Name:           %{name}
@@ -15,6 +15,7 @@ Requires:       perl(XML::LibXML) >= 1.59
 BuildRequires:  perl-devel
 BuildRequires:  perl(XML::LibXML) >= 1.59
 BuildRequires:  libxslt-devel
+BuildRequires:  libgdbm-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
