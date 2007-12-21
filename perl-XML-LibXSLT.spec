@@ -16,6 +16,7 @@ BuildRequires:  perl-devel
 BuildRequires:  perl(XML::LibXML) >= 1.59
 BuildRequires:  libxslt-devel
 BuildRequires:  libgdbm-devel
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 This module is a fast XSLT library, based on the Gnome libxslt engine.
