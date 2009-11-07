@@ -1,5 +1,5 @@
 %define upstream_name    XML-LibXSLT
-%define upstream_version 1.68
+%define upstream_version 1.70
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:    Perl interface to the gnome libxslt library
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}/
-Source0:    http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:    http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:  libgdbm-devel
 BuildRequires:  libxslt-devel
