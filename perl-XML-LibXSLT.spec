@@ -1,9 +1,9 @@
 %define upstream_name    XML-LibXSLT
-%define upstream_version 1.76
+%define upstream_version 1.77
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    1
 
 Summary:    Perl interface to the gnome libxslt library
 License:    GPL+ or Artistic
