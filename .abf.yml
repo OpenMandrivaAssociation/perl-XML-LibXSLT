@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   XML-LibXSLT-1.80.tar.gz: e9f9f5e2069c4dd91f2463bf30a146ed91ed4763
+sources:
+  XML-LibXSLT-1.87.tar.gz: 1133bbf3e52ead0a46e02fe7f8c4c905cfde5a5d

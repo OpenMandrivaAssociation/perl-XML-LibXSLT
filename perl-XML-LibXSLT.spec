@@ -1,14 +1,14 @@
 %define modname	XML-LibXSLT
-%define modver	1.80
+%define modver 1.87
 
 Summary:	Perl interface to the gnome libxslt library
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	5
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/XML/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/XML/XML-LibXSLT-%{modver}.tar.gz
 BuildRequires:	gdbm-devel
 BuildRequires:	pkgconfig(libxslt)
 BuildRequires:	perl(XML::LibXML) >= 1.59
@@ -36,4 +36,5 @@ make test
 %{perl_vendorarch}/XML
 %{perl_vendorarch}/auto/XML
 %{_mandir}/man3/*
+
 
