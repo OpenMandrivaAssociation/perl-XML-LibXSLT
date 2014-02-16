@@ -11,6 +11,7 @@ Url:		http://search.cpan.org/dist/%{modname}/
 Source0:	http://www.cpan.org/modules/by-module/XML/XML-LibXSLT-%{modver}.tar.gz
 BuildRequires:	gdbm-devel
 BuildRequires:	pkgconfig(libxslt)
+BuildRequires:	pkgconfig(libxml-2.0)
 BuildRequires:	perl(XML::LibXML) >= 1.59
 BuildRequires:	perl-devel
 Requires:	perl(XML::LibXML) >= 1.59
