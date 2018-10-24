@@ -3,5 +3,6 @@ removed_sources:
   XML-LibXSLT-1.87.tar.gz: 1133bbf3e52ead0a46e02fe7f8c4c905cfde5a5d
   XML-LibXSLT-1.88.tar.gz: 5daab53a090986c649954b8395d6ba8a0ed510d9
   XML-LibXSLT-1.89.tar.gz: dcd0c9cd4d60ef70ed6e2bc8f380c5fa45a9e2c0
-sources:
   XML-LibXSLT-1.92.tar.gz: 568aaba0c6aa0c6bbb1d1b92317ca96151cf3ea6
+sources:
+  XML-LibXSLT-1.95.tar.gz: a96aadc6105b00559612e9f3c380a1e0e10ca6d9

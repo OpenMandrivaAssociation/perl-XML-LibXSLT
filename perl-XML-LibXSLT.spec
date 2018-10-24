@@ -1,11 +1,11 @@
 %define modname	XML-LibXSLT
-%define modver 1.92
+%define modver 1.95
 
 Summary:	Perl interface to the gnome libxslt library
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	6
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
