@@ -12,6 +12,7 @@ Url:		http://search.cpan.org/dist/%{modname}/
 Source0:	http://www.cpan.org/modules/by-module/XML/%{modname}-%{modver}.tar.gz
 BuildRequires:	gdbm-devel
 BuildRequires:	pkgconfig(libxslt)
+BuildRequires:	xsltproc
 BuildRequires:	pkgconfig(libxml-2.0)
 BuildRequires:	perl(XML::LibXML) >= 1.59
 BuildRequires:	perl-devel
@@ -24,7 +25,7 @@ This module is a fast XSLT library, based on the Gnome libxslt engine.
 %setup -qn %{modname}-%{modver}
 
 %build
-perl Makefile.PL INSTALLDIRS=vendor
+perl Makefile.PL INSTALLDIRS=vendor OPTIMIZE="%{optflags}"
 %make_build
 
 %check
