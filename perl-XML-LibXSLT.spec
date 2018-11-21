@@ -24,7 +24,7 @@ This module is a fast XSLT library, based on the Gnome libxslt engine.
 %autosetup -n %{modname}-%{modver} -p1
 
 %build
-perl Makefile.PL INSTALLDIRS=vendor OPTIMIZE="%{optflags}"
+perl Makefile.PL INSTALLDIRS=vendor OPTIMIZE="%{optflags}" LIBS="-llibxslt"
 %make_build
 
 %check
